@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+header{
+    background-color: #2c3e50;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+header h1{
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+header p {
+    font-size: 20px;
+    color: #ecf8f1;
+}
+nav{
+    background-color: #34495e;
+    padding: 15px 0;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition:background-color 1s ;
+}
+nav a:hover{
+    background-color: #4ec9b8;
+}
+main{
+    max-width: 1000px;
+    margin:0  auto;
+    padding: 20px;
+}
+main section{
+    background-color: white;
+    padding: 20px;
+    margin: 30px 0px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+section h2 {
+    color: #2c3e50;
+    font-size: 32px ;
+    margin-bottom: 20px;
+    border-right:solid 4px  #4ec9b8 ;
+    padding-right:15px ;
+}
+#skills ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+#skills li{
+    background-color: #4ec9b8;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    transition:transform 0.5s;
+}
+#skills li:hover{
+    transform: translate(-5px);
+}
+main article{
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin: 15px 0px ;
+    border-radius: 8px;
+    border-right: 4px solid #4ec9b8;
+    transition: all 0.5s;
+}
+article:hover{
+    background-color: white;
+    transform: translateX(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+}
+article h3 {
+    color: #2c3e50;
+    margin-bottom: 10px ;
+}
+#contact ul{ list-style: none;
+margin-top: 20px;
+
+}
+#contact li{
+    padding: 10px 0px ;
+    font-size: 18px;
+}
+#contact{
+    background-color: #f8f9fa;
+}
+footer{
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 30px 20px ;
+    margin-top: 50px;
+}
+footer p {
+    margin: 5px 0px;
+}
